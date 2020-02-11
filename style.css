@@ -1,0 +1,51 @@
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+html {
+    font-family: 'Oswald',
+        sans-serif;
+}
+
+.team {
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+    background-color: #ddd;
+    position: relative;
+}
+
+.team img.color {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    height: 36%;
+    z-index: 1;
+}
+
+.team img.grey {
+    position: absolute;
+    bottom: 0;
+    left: -70%;
+    height: 110%;
+    opacity: 0.2;
+}
+
+.team .member {
+    position: absolute;
+    top: 10%;
+    text-align: center;
+    width: 100%;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+.team h1 {
+    font-size: 4rem;
+}
+
+.team h2 {
+    font-size: 2.2rem;
+}
